@@ -1,0 +1,72 @@
+#hero-space h1 {
+    background-color: #969026;
+    font-size: 3em;
+     font-weight: 400;
+     min-height: 200px;
+     padding-top: 4em;
+     text-align: center; 
+ }
+ 
+ #categories h1 {
+     background-color: #C1746E;
+     font-size: 3em;
+      font-weight: 400;
+      min-height: 200px;
+      padding-top: 4em;
+      text-align: center; 
+  }
+ 
+  #testimonials h1 {
+     background-color: #269690;    
+     font-size: 3em;
+      font-weight: 400;
+      min-height: 200px;
+      padding-top: 4em;
+      text-align: center; 
+  }
+
+  .sorting-section {
+    background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  } 
+
+  .sorting-section p {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: .5em;
+  }
+
+  @media (min-width: 850px) {
+      .sorting-section p {
+        margin-top: 8em;
+      }
+  }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .grid-item {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .grid-item img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .grid-item p {
+      text-align: center;
+  }
