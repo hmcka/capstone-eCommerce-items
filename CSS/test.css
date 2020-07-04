@@ -46,6 +46,11 @@ header {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.fa a:hover {
+    background-color: lawngreen;
+    color: lawngreen;
+}
+
 #hamburger {
     background-image: url("../images/hamburger-blk.svg");
     float: left;
